@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  max-width: 920px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card--sedans {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: hsl(31, 77%, 52%);
+}
+.card--sedans img {
+  width: 80px;
+  height: 50px;
+  margin: 0 3rem;
+}
+.card--sedans h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2rem;
+  color: hsl(0, 0%, 95%);
+  margin: 0 3rem;
+}
+.card--sedans p {
+  font-size: 1rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0 3rem;
+}
+.card--sedans a {
+  max-width: 140px;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0 3rem;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.card--sedans a:hover {
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.card--sedans a {
+  color: hsl(31, 77%, 52%);
+}
+.card--sedans a:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card--suvs {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: hsl(184, 100%, 22%);
+}
+.card--suvs img {
+  width: 80px;
+  height: 50px;
+  margin: 0 3rem;
+}
+.card--suvs h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2rem;
+  color: hsl(0, 0%, 95%);
+  margin: 0 3rem;
+}
+.card--suvs p {
+  font-size: 1rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0 3rem;
+}
+.card--suvs a {
+  max-width: 140px;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0 3rem;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.card--suvs a:hover {
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.card--suvs a {
+  color: hsl(184, 100%, 22%);
+}
+.card--suvs a:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card--luxury {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: hsl(179, 100%, 13%);
+}
+.card--luxury img {
+  width: 80px;
+  height: 50px;
+  margin: 0 3rem;
+}
+.card--luxury h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2rem;
+  color: hsl(0, 0%, 95%);
+  margin: 0 3rem;
+}
+.card--luxury p {
+  font-size: 1rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0 3rem;
+}
+.card--luxury a {
+  max-width: 140px;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0 3rem;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.card--luxury a:hover {
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.card--luxury a {
+  color: hsl(179, 100%, 13%);
+}
+.card--luxury a:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 375px) {
+  .cards {
+    max-width: 370px;
+    max-height: 2000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
